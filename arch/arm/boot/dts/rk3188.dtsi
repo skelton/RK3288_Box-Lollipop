@@ -1,7 +1,13 @@
+#include <dt-bindings/clock/rk_system_status.h> //?
 #include <dt-bindings/clock/ddr.h>
 #include <dt-bindings/rkfb/rk_fb.h>
 #include <dt-bindings/suspend/rockchip-pm.h>
 #include <dt-bindings/sensor-dev.h>
+
+//rk3288
+#include <dt-bindings/interrupt-controller/arm-gic.h>
+#include <dt-bindings/rkmipi/mipi_dsi.h>
+
 
 #include "skeleton.dtsi"
 #include "rk3188-pinctrl.dtsi"
