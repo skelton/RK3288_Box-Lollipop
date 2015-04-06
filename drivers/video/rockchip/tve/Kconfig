@@ -10,4 +10,5 @@ menuconfig RK_TVENCODER
 
 source "drivers/video/rockchip/tve/rk3036/Kconfig"
 source "drivers/video/rockchip/tve/rk610/Kconfig"
+source "drivers/video/rockchip/tve/rk1000/Kconfig"
 
