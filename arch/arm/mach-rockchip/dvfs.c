@@ -868,6 +868,8 @@ static struct cpufreq_frequency_table rk3288v0_arm_pvtm_table[] = {
 	{.frequency = 1200000,  .index = 15532},
 	{.frequency = 1416000,  .index = 18076},
 	{.frequency = 1608000,  .index = 21282},
+	{.frequency = 1704000,  .index = 21282},
+	{.frequency = 1800000,  .index = 21282},
 	{.frequency = CPUFREQ_TABLE_END, .index = 1},
 };
 
@@ -895,6 +897,8 @@ static struct cpufreq_frequency_table rk3288v1_arm_pvtm_table[] = {
 	{.frequency = 1200000,  .index = 16886},
 	{.frequency = 1416000,  .index = 20081},
 	{.frequency = 1608000,  .index = 24061},
+	{.frequency = 1704000,  .index = 24061},
+	{.frequency = 1800000,  .index = 24061},
 	{.frequency = CPUFREQ_TABLE_END, .index = 1},
 };
 
@@ -922,6 +926,8 @@ static struct cpufreq_frequency_table rk3288v2_arm_pvtm_table[] = {
 	{.frequency = 1200000,  .index = 16797},
 	{.frequency = 1416000,  .index = 20178},
 	{.frequency = 1608000,  .index = 23303},
+	{.frequency = 1704000,  .index = 23303},
+	{.frequency = 1800000,  .index = 23303},
 	{.frequency = CPUFREQ_TABLE_END, .index = 1},
 };
 
